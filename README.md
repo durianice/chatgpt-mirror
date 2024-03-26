@@ -7,7 +7,8 @@
 [https://github.com/cockroachai/ja3-proxy](https://github.com/cockroachai/ja3-proxy)
 
 ## 运行步骤
-### 1. 安装 docker 和 docker-compose (略)
+### 1. 安装 docker 和 docker-compose
+[参考教程](https://noooy.com/2023/12/e76f8f1a9ce2.html#Docker%E3%80%81Docker-Compose-%E5%AE%98%E6%96%B9%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85)
 ### 2. 下载配置文件
 ```bash
 git clone https://github.com/durianice/chatgpt-mirror.git
