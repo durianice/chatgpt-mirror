@@ -23,7 +23,7 @@ services:
     ports:
     - ${JA3_PROXY_PORT}:9988
     environment:
-      WEBSITE_URL: https://chat.openai.com/auth/login
+      WEBSITE_URL: ${WEBSITE_URL}
       PROXY: http://${TINYPROXY_AUTH_USER}:${TINYPROXY_AUTH_PASSWORD}@${REAL_IP}:${TINYPROXY_PORT}
       CLIENTKEY: ${CLIENTKEY}
       LOCALPROXYUSER: ${JA3_PROXY_AUTH_USER}
